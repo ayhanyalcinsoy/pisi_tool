@@ -4,7 +4,7 @@ bc1e5cb5c96d99b24886f1f527d3bb3d  attr-2.4.48.tar.gz
 53f38e7591fa57c3d2cee682be668e5b  automake-1.16.1.tar.xz
 518e2c187cc11a17040f0915dddce54e  bash-4.4.18.tar.gz
 cda93857418655ea43590736fc3ca9fc  bc-1.07.1.tar.gz
-5b7c9d4ce96f507d95c1b9a255e52418  binutils-2.31.1.tar.xz
+7126f370ffbd46c08fcc5ce7aee2805d  binutils-2.35.1.tar.xz
 3e54f20988ecd1b62044e25481e5f06b  bison-3.0.5.tar.xz
 00b516f4704d4a7cb50a1d97e6e8e15b  bzip2-1.0.6.tar.gz
 31b17c6075820a434119592941186f70  check-0.12.0.tar.gz
@@ -20,10 +20,10 @@ ca047ae951b40020ac831c28859161b2  expat-2.2.6.tar.bz2
 9936aa8009438ce185bea2694a997fc1  findutils-4.6.0.tar.gz
 2882e3179748cc9f9c23ec593d6adc8d  flex-2.6.4.tar.gz
 95cf553f50ec9f386b5dfcd67f30180a  gawk-4.2.1.tar.xz
-4ab282f414676496483b3e1793d07862  gcc-8.2.0.tar.xz
+e9fd9b1789155ad09bcf3ae747596b50  gcc-10.2.0.tar.xz
 f20ce117abc6f302ecf62c34d41c1ecf  gdbm-1.17.tar.gz
 df3f5690eaa30fd228537b00cb7b7590  gettext-0.19.8.1.tar.xz
-c81d2388896379997bc359d4f2084239  glibc-2.28.tar.xz
+720c7992861c57cf97d66a2f36d8d1fa  glibc-2.28.tar.xz
 f58fa8001d60c4c77595fbbb62b63c1d  gmp-6.1.2.tar.xz
 9e251c0a618ad0824b51117d5d9db87e  gperf-3.1.tar.gz
 feca7b3e7c7f4aab2b42ecbfc513b070  grep-3.1.tar.xz
@@ -42,7 +42,7 @@ c1635a5a83b63aca7f97a3eab39ebaa6  kbd-2.0.4.tar.xz
 83b89587607e3eb65c70d361f13bab43  libffi-3.2.1.tar.gz
 b7437a5020190cfa84f09c412db38902  libpipeline-1.5.0.tar.gz
 1bfb9b923f2c1339b4d2ce1807064aa5  libtool-2.4.6.tar.xz
-22851fe6c82db6673a844bbb7c62df67  linux-4.18.5.tar.xz
+cd6bbb5f0bc7cef3deab42d873bd0d2b  linux-5.10.7.tar.xz
 730bb15d96fffe47e148d1e09235af82  m4-1.4.18.tar.xz
 15b012617e7c44c0ed482721629577ac  make-4.2.1.tar.bz2
 ab41db551f500e4a595b11203b86c67a  man-db-2.8.4.tar.xz
@@ -51,7 +51,7 @@ ad9f1ff81276fe8d90d077484d6d4b5e  man-pages-4.16.tar.xz
 4125404e41e482ec68282a2e687f6c73  mpc-1.1.0.tar.gz
 b8dd19bd9bb1ec8831a6a582a7308073  mpfr-4.0.1.tar.xz
 5fdb04461cc7f5d02536b3bfc0300166  ninja-1.8.2.tar.gz
-98c889aaf8d23910d2b92d65be2e737a  ncurses-6.1.tar.gz
+e812da327b1c2214ac1aed440ea3ae8d  ncurses-6.2.tar.gz
 9495126aafd2659d357ea66a969c3fe1  openssl-1.1.0i.tar.gz
 78ad9937e4caadcba1526ef1853730d5  patch-2.7.6.tar.xz
 f3245183c0a08f65e94a3333995af08e  perl-5.28.0.tar.xz

@@ -1,10 +1,10 @@
 #!/bin/bash
-# 5.7. Glibc-2.28
+# 5.7. Glibc-2.32
 set -e
 cd $LFS/sources
-rm -rf glibc-2.28
-tar xf glibc-2.28.tar.xz
-cd glibc-2.28
+rm -rf glibc-2.32
+tar xf glibc-2.32.tar.xz
+cd glibc-2.32
 
 mkdir -v build
 cd       build
@@ -20,4 +20,4 @@ make
 make install
 
 cd $LFS/sources
-rm -rf glibc-2.28
+rm -rf glibc-2.32

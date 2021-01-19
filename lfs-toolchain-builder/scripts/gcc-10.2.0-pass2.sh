@@ -1,10 +1,10 @@
 #!/bin/bash
-# 5.10. GCC-8.2.0 - Pass 2
+# 5.10. GCC-10.2.0 - Pass 2
 set -e
 cd $LFS/sources
-rm -rf gcc-8.2.0
-tar xf gcc-8.2.0.tar.xz
-cd gcc-8.2.0
+rm -rf gcc-10.2.0
+tar xf gcc-10.2.0.tar.xz
+cd gcc-10.2.0
 
 cat gcc/limitx.h gcc/glimits.h gcc/limity.h > \
   `dirname $($LFS_TGT-gcc -print-libgcc-file-name)`/include-fixed/limits.h
@@ -26,12 +26,12 @@ case $(uname -m) in
         -i.orig gcc/config/i386/t-linux64
   ;;
 esac
-tar -xf ../mpfr-4.0.1.tar.xz
-mv -v mpfr-4.0.1 mpfr
-tar -xf ../gmp-6.1.2.tar.xz
-mv -v gmp-6.1.2 gmp
-tar -xf ../mpc-1.1.0.tar.gz
-mv -v mpc-1.1.0 mpc
+tar -xf ../mpfr-4.1.0.tar.xz
+mv -v mpfr-4.1.0 mpfr
+tar -xf ../gmp-6.2.1.tar.xz
+mv -v gmp-6.2.1 gmp
+tar -xf ../mpc-1.2.1.tar.gz
+mv -v mpc-1.2.1 mpc
 mkdir -v build
 cd       build
 CC=$LFS_TGT-gcc                                    \
@@ -52,4 +52,4 @@ make install
 ln -sv gcc /tools/bin/cc
 
 cd $LFS/sources
-rm -rf gcc-8.2.0
+rm -rf gcc-10.2.0
