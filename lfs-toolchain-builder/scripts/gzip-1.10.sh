@@ -1,10 +1,10 @@
 #!/bin/bash
-# 5.26. Gzip-1.9
+# 5.26. Gzip-1.10
 set -e
 cd $LFS/sources
-rm -rf gzip-1.9
-tar xf gzip-1.9.tar.xz
-cd gzip-1.9
+rm -rf gzip-1.10
+tar xf gzip-1.10.tar.xz
+cd gzip-1.10
 
 sed -i 's/IO_ftrylockfile/IO_EOF_SEEN/' lib/*.c
 echo "#define _IO_IN_BACKUP 0x100" >> lib/stdio-impl.h
@@ -13,4 +13,4 @@ make
 make install
 
 cd $LFS/sources
-rm -rf gzip-1.9
+rm -rf gzip-1.10

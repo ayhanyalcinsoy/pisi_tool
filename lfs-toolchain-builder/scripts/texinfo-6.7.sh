@@ -1,14 +1,14 @@
 #!/bin/bash
-# 5.21. File-5.34
+# 5.32. Texinfo-6.7
 set -e
 cd $LFS/sources
-rm -rf file-5.34
-tar xf file-5.34.tar.gz
-cd file-5.34
+rm -rf texinfo-6.7
+tar xf texinfo-6.7.tar.xz
+cd texinfo-6.7
 
 ./configure --prefix=/tools
 make
 make install
 
 cd $LFS/sources
-rm -rf file-5.34
+rm -rf texinfo-6.7

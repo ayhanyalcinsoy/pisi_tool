@@ -1,14 +1,14 @@
 #!/bin/bash
-# 5.17. Bison-3.0.5
+# 5.23. Gawk-5.1.0
 set -e
 cd $LFS/sources
-rm -rf bison-3.0.5
-tar xf bison-3.0.5.tar.xz
-cd bison-3.0.5
+rm -rf gawk-5.1.0
+tar xf gawk-5.1.0.tar.xz
+cd gawk-5.1.0
 
 ./configure --prefix=/tools
 make
 make install
 
 cd $LFS/sources
-rm -rf bison-3.0.5
+rm -rf gawk-5.1.0

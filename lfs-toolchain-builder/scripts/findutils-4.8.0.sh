@@ -1,10 +1,10 @@
 #!/bin/bash
-# 5.22. Findutils-4.6.0
+# 5.22. Findutils-4.8.0
 set -e
 cd $LFS/sources
-rm -rf findutils-4.6.0
-tar xf findutils-4.6.0.tar.gz
-cd findutils-4.6.0
+rm -rf findutils-4.8.0
+tar xf findutils-4.8.0.tar.gz
+cd findutils-4.8.0
 
 sed -i 's/IO_ftrylockfile/IO_EOF_SEEN/' gl/lib/*.c
 sed -i '/unistd/a #include <sys/sysmacros.h>' gl/lib/mountlist.c
@@ -14,4 +14,4 @@ make
 make install
 
 cd $LFS/sources
-rm -rf findutils-4.6.0
+rm -rf findutils-4.8.0

@@ -1,14 +1,14 @@
 #!/bin/bash
-# 5.32. Texinfo-6.5
+# 5.17. Bison-3.7.4
 set -e
 cd $LFS/sources
-rm -rf texinfo-6.5
-tar xf texinfo-6.5.tar.xz
-cd texinfo-6.5
+rm -rf bison-3.7.4
+tar xf bison-3.7.4.tar.xz
+cd bison-3.7.4
 
 ./configure --prefix=/tools
 make
 make install
 
 cd $LFS/sources
-rm -rf texinfo-6.5
+rm -rf bison-3.7.4

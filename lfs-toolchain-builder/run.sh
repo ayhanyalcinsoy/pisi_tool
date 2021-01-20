@@ -102,12 +102,12 @@ sh /scripts/bash-5.1.sh > /mnt/lfs/sources/logs/bash-5.1 2>&1
 # 5.17. Bison-3.7.4
 echo "Building: 5.17. Bison-3.7.4 (17 packages left)"
 sh /scripts/bison-3.7.4.sh > /mnt/lfs/sources/logs/bison-3.7.4 2>&1
-# 5.18. Bzip2-1.0.6
-echo "Building: 5.18. Bzip2-1.0.6 (16 packages left)"
-sh /scripts/bzip2-1.0.6.sh > /mnt/lfs/sources/logs/bzip2-1.0.6 2>&1
-# 5.19. Coreutils-8.30
-echo "Building: 5.19. Coreutils-8.30 (15 packages left)"
-sh /scripts/coreutils-8.30.sh > /mnt/lfs/sources/logs/coreutils-8.30 2>&1
+# 5.18. Bzip2-1.0.8
+echo "Building: 5.18. Bzip2-1.0.8 (16 packages left)"
+sh /scripts/bzip2-1.0.8.sh > /mnt/lfs/sources/logs/bzip2-1.0.8 2>&1
+# 5.19. Coreutils-8.32
+echo "Building: 5.19. Coreutils-8.32 (15 packages left)"
+sh /scripts/coreutils-8.32.sh > /mnt/lfs/sources/logs/coreutils-8.32 2>&1
 # 5.20. Diffutils-3.7
 echo "Building: 5.20. Diffutils-3.7 (14 packages left)"
 sh /scripts/diffutils-3.7.sh > /mnt/lfs/sources/logs/diffutils-3.7 2>&1
@@ -144,12 +144,12 @@ sh /scripts/sed-4.8.sh > /mnt/lfs/sources/logs/sed-4.8 2>&1
 # 5.31. Tar-1.33
 echo "Building: 5.31. Tar-1.33 (3 packages left)"
 sh /scripts/tar-1.33.sh > /mnt/lfs/sources/logs/tar-1.33 2>&1
-# 5.32. Texinfo-6.5
-echo "Building: 5.32. Texinfo-6.5 (2 packages left)"
-sh /scripts/texinfo-6.5.sh > /mnt/lfs/sources/logs/texinfo-6.5 2>&1
-# 5.33. Util-linux-2.32.1
-echo "Building: 5.33. Util-linux-2.32.1 (1 package left)"
-sh /scripts/util-linux-2.32.1.sh > /mnt/lfs/sources/logs/util-linux-2.32.1 2>&1
+# 5.32. Texinfo-6.7
+echo "Building: 5.32. Texinfo-6.7 (2 packages left)"
+sh /scripts/texinfo-6.7.sh > /mnt/lfs/sources/logs/texinfo-6.7 2>&1
+# 5.33. Util-linux-2.36.1
+echo "Building: 5.33. Util-linux-2.36.1 (1 package left)"
+sh /scripts/util-linux-2.36.1.sh > /mnt/lfs/sources/logs/util-linux-2.36.1 2>&1
 # 5.34. Xz-5.2.5
 echo "Building: 5.34. Xz-5.2.5 (last package)"
 sh /scripts/xz-5.2.5.sh > /mnt/lfs/sources/logs/xz-5.2.5 2>&1

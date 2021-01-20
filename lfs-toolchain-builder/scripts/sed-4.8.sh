@@ -1,14 +1,14 @@
 #!/bin/bash
-# 5.34. Xz-5.2.4
+# 5.30. Sed-4.8
 set -e
 cd $LFS/sources
-rm -rf xz-5.2.4
-tar xf xz-5.2.4.tar.xz
-cd xz-5.2.4
+rm -rf sed-4.8
+tar xf sed-4.8.tar.xz
+cd sed-4.8
 
 ./configure --prefix=/tools
 make
 make install
 
 cd $LFS/sources
-rm -rf xz-5.2.4
+rm -rf sed-4.8
